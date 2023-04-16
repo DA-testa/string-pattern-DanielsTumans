@@ -7,12 +7,12 @@ def read_input():
         text = input().rstrip()
    elif filek == "F":
       bebrik = "./tests/" + "06"
-    with open (bebrik, "r") as f:
-        pattern = f.readline().rstrip()
-        text = f.readline().rstrip()
+      with open (bebrik, "r") as f:
+         pattern = f.readline().rstrip()
+         text = f.readline().rstrip()
     
     
-    return (pattern, text)
+   return (pattern, text)
 
 def print_occurrences(output):
     print(' '.join(map(str, output)))

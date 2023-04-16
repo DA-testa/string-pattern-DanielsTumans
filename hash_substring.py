@@ -4,7 +4,7 @@ def read_input():
     if "I" in input():
         pattern = input().rstrip()
         text = input().rstrip()
-    elif "F" in input():
+    else:
         with open ("tests/06") as f:
             pattern = f.readline().rstrip()
             text = f.readline().rstrip()

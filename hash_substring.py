@@ -5,7 +5,7 @@ def read_input():
    if filek == "I":
         pattern = input().rstrip()
         text = input().rstrip()
-   elif choice == "F":
+   elif filek == "F":
     with open ("tests/test1.txt") as f:
         pattern = f.readline().rstrip()
         text = f.readline().rstrip()

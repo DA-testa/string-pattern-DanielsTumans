@@ -6,10 +6,9 @@ def read_input():
         pattern = input().rstrip()
         text = input().rstrip()
    elif filek == "F":
-      
-      with open ("tests/06") as f:
-         pattern = f.readline().rstrip()
-         text = f.readline().rstrip()
+        with open ("tests/06") as f:
+            pattern = f.readline().rstrip()
+            text = f.readline().rstrip()
     
     
    return (pattern, text)

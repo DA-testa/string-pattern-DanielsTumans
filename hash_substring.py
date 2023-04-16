@@ -6,8 +6,8 @@ def read_input():
         pattern = input().rstrip()
         text = input().rstrip()
    elif filek == "F":
-      bebrik = "./tests/" + "06"
-      with open (bebrik, "r") as f:
+      
+      with open ("tests/06") as f:
          pattern = f.readline().rstrip()
          text = f.readline().rstrip()
     

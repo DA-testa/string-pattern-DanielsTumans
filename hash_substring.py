@@ -1,17 +1,15 @@
 # python3
 
 def read_input():
-   filek = input()
-   pattern = ''
-   text = ''
-   if filek == "I":
-        pattern = input().rstrip()
-        text = input().rstrip()
-   elif filek == "F":
-        with open ("tests/06") as f:
-            pattern = f.readline().rstrip()
-            text = f.readline().rstrip()
-   return (pattern, text)
+      filek = input()
+      if filek == "I":
+         pattern = input().rstrip()
+         text = input().rstrip()
+      elif filek == "F":
+         with open ("tests/06") as f:
+               pattern = f.readline().rstrip()
+               text = f.readline().rstrip()
+      return (pattern, text)
   
 
 def print_occurrences(output):

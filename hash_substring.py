@@ -2,6 +2,8 @@
 
 def read_input():
    filek = input()
+   pattern = ''
+   text = ''
    if filek == "I":
         pattern = input().rstrip()
         text = input().rstrip()

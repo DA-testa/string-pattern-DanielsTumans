@@ -28,7 +28,7 @@ def get_occurrences(pattern, text):
     text_hash = 0
     for i in range(patternlength):
         text_hash = (text_hash * x * ord(text[i])) % p
-    if pattern_hash == text_hash and pattern = text[:patternlength]:
+    if pattern_hash == text_hash and pattern == text[:patternlength]:
         result.append(0)
     x_pow = pow(x, patternlength -1, p)
     for i in range(patternlength, textlength):

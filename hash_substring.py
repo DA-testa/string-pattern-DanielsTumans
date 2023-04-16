@@ -6,7 +6,7 @@ def read_input():
         pattern = input().rstrip()
         text = input().rstrip()
    elif choice == "F":
-    with open ("tests/test1.txt") as f
+    with open ("tests/test1.txt") as f:
         pattern = f.readline()rstrip()
         text = f.readline()rstrip()
     

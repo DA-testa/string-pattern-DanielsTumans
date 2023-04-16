@@ -9,9 +9,8 @@ def read_input():
         with open ("tests/06") as f:
             pattern = f.readline().rstrip()
             text = f.readline().rstrip()
-    
-    
    return (pattern, text)
+  
 
 def print_occurrences(output):
     print(' '.join(map(str, output)))

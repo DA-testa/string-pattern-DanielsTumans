@@ -3,8 +3,8 @@
 def read_input():
    filek = input()
    if filek == "I":
-        pattern = input.()rstrip()
-        text = input.()rstrip()
+        pattern = input().rstrip()
+        text = input().rstrip()
    elif choice == "F":
     with open ("tests/test1.txt") as f
         pattern = f.readline()rstrip()

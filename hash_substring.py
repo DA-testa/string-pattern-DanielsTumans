@@ -22,7 +22,7 @@ def get_occurrences(pattern, text):
       if len(pattern) > len(text):
          return result
       patternhash = hash(pattern)
-      texthash = [hash(text[i:i+len(pattern)]) for i in range(len(text) = len(pattern)+1)]
+      texthash = [hash(text[i:i+len(pattern)]) for i in range(len(text) - len(pattern)+1)]
       for i in range (len(texthash)):
          if patternhash == texthash[i] and text[i:i+len(pattern)] == pattern:
             result.append(i)
